@@ -1,0 +1,25 @@
+{
+  "name": "magicdev_ball",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tabskey/magicdev_ball.git"
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "Tabatha Macedo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tabskey/magicdev_ball/issues"
+  },
+  "homepage": "https://github.com/tabskey/magicdev_ball#readme",
+  "dependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
