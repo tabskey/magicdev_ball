@@ -1,14 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
 //import axios from 'axios'
-//const [googleAuth, setGoogleAuth] = useState({})
 import React from 'react';
 //import ReactDOM from 'react-dom';
 import { GoogleLogin } from 'react-google-login';
+import { useHistory } from "react-router-dom";
 
 
+let history = useHistory();
 const responseGoogle = (response) => {
   console.log(response);
+  history.push('/home')
 }
 document.getElementById('googleButton')
 

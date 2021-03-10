@@ -3,10 +3,27 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { Router, Switch, Route } from "react-router-dom";
+
+import history from "./history";
+import Home from './pages/home';
+
+
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+     <Router history={history}>
+    <App /><Switch>
+    <Route path="/home">
+    <Home>
+      
+    </Home>
+
+  </Route>
+  </Switch>
+  </Router>
+  
+  
   </React.StrictMode>,
   document.getElementById('root')
 );
